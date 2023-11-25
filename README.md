@@ -18,7 +18,11 @@ Here you can find the fine-tuned models to use directly:
 ### Hardware Used
 - A100 GPU
 - T4x2
-  
+
+---
+### Packaged Used
+All packages used in our conda environment are included in the Requirements.txt  
+
 ---
 ### Model Architecture
 ![Flowchart](https://github.com/GeorgeSherif/Enhanced-Verification-of-Natural-Disaster-Tweets/assets/65810674/e91f53e9-6e63-4296-b69e-c2ac4624a26c)
