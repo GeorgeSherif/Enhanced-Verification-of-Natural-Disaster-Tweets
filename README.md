@@ -1,7 +1,4 @@
-![Logo](/Mohamed_bin_Zayed_University_of_Artificial_Intelligence_logo.png)
-
 # Enhanced Verification of Natural Disaster Tweets: A Dual-Layered Approach for Improved Accuracy and Reliability
-## Group 29
 ### Problem Statement
 The rapid dissemination of information through social media, especially during natural disasters, presents a unique challenge: the need for quick verification of the authenticity and accuracy of the information being shared. This project addresses the critical issue of identifying and verifying tweets related to natural disasters. The significance of this problem lies in the potential impact of misinformation during natural disasters. False reports can lead to unnecessary panic, misallocation of resources, and even harm to those affected by the disaster. Conversely, timely and accurate information can aid in effective disaster response and management.
 
