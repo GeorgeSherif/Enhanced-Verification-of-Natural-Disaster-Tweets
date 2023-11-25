@@ -59,6 +59,8 @@ We used 2 datasets for this project.
   - ID
   - Claim
   - Evidence
+  - input_ids
+  - attention_mask
   
    Output:
    - 0: Evidence does not support the claim
