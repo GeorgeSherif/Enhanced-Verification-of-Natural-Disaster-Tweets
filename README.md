@@ -42,7 +42,15 @@ For the second layer, evaluation was carried out in 3 phases. They can be listed
 - Second layer output compared to the true labels when the first layer incorrectly classified the tweet.
 ![image](https://github.com/GeorgeSherif/Enhanced-Verification-of-Natural-Disaster-Tweets/assets/65810674/f63c0344-28c4-4b5c-b950-935f5a027306)
 
+--- 
+### Conclusion
+The rise of social media has amplified the challenge of fake news, prompting us to develop a two-tiered system for verifying tweets about natural disasters. Our model, which combines BerTopic for feature extraction and RoBERTa for classification, surpassed the baseline with a 4.9% higher F1 score of 0.82653. In stance classification, it achieved 77% agreement on correctly classified tweets from the first layer and notably corrected 76% of the misclassifications made by the first layer, demonstrating its effectiveness in tackling misinformation.
 
+---
+### Team Members
+- Hanin Atwani
+- George Ibrahim
+- Ching Chao
 
 
 
