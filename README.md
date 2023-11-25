@@ -25,9 +25,54 @@ model = RobertaForSequenceClassification.from_pretrained(model_path)
 ```
 ---
 ### Hardware and Packages Used
+All packages used in our conda environment are included in the Requirements.txt  
+
 - A100 GPU
 - T4x2
-All packages used in our conda environment are included in the Requirements.txt  
+
+---
+### Datasets Used
+We used 2 datasets for this project.
+
+1- Natural Language Processing with Disaster Tweets - [Kaggle](https://www.kaggle.com/competitions/nlp-getting-started)
+ 
+ Features:
+  - ID
+  - Keyword
+  - Location
+  - Text
+ 
+  Output:
+  - 0: Not Natural Disaster
+  - 1: Natural Disaster
+  
+  The distribution of data can be shown in the following table
+
+  | Output | Count 2 | % |
+  | :---            | ---:            | ---: |
+  | 0  | 4,342   | 57% |
+  | 1  | 3,271   | 43% |
+
+2- Fact Extraction and VERification - [FEVER](https://huggingface.co/datasets/mwong/fever-evidence-related/viewer/default/train) 
+  
+  Features:
+  - ID
+  - Claim
+  - Evidence
+  
+   Output:
+   - 0: Evidence does not support the claim
+   - 1: Evidence supports the claim
+
+  
+  The original training dataset imported from the datasets hugging face library includes
+  
+  | Output | Count 2 | % |
+  | :---            | ---:            | ---: |
+  | 0  | 284,502   | 70.6% |
+  | 1  | 118,716   | 29.4% |
+
+
 
 ---
 ### Model Architecture
