@@ -12,9 +12,17 @@ Here you can find the fine-tuned models to use directly:
 
 ---
 ### Using the models
-`best_model = SentimentClassifier()
-best_model.load_state_dict(torch.load('best_model_state.bin'))`
-  
+```python
+best_model = SentimentClassifier()
+best_model.load_state_dict(torch.load('best_model_state.bin'))
+```
+
+```python
+model_path = "/RoBERTa_Fever_7(Balanced)"
+#model_path = "/RoBERTa_Fever_6" #Unbalanced
+tokenizer = RobertaTokenizer.from_pretrained(model_path)
+model = RobertaForSequenceClassification.from_pretrained(model_path)
+```
 ---
 ### Hardware and Packages Used
 - A100 GPU
