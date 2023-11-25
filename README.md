@@ -48,7 +48,7 @@ The rise of social media has amplified the challenge of fake news, prompting us 
 
 ---
 ### Team Members
-- Hanin Atwani
+- Hanin Atwany
 - George Ibrahim
 - Ching Chao
 
