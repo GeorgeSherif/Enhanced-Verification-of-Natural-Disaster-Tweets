@@ -78,7 +78,8 @@ We used 2 datasets for this project.
 
 ---
 ### Model Architecture
-![Flowchart](https://github.com/GeorgeSherif/Enhanced-Verification-of-Natural-Disaster-Tweets/assets/65810674/e91f53e9-6e63-4296-b69e-c2ac4624a26c)
+![Flowchart](https://github.com/GeorgeSherif/Enhanced-Verification-of-Natural-Disaster-Tweets/assets/65810674/e3244049-56c4-48f9-a2e4-e6c7b030119e)
+
 ---
 Every tweet is initially processed by the first layer of our model, where it is classified to determine if it relates to a natural disaster. Following this, the tweet, along with a document retrieved from the Google Search Custom Search API, is passed to the second layer. This layer carries out stance classification, assessing whether the information in the tweet is corroborated by the document or not.
 
