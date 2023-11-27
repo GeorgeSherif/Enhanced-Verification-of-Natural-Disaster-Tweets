@@ -27,7 +27,7 @@ model = RobertaForSequenceClassification.from_pretrained(model_path)
 ### Hardware and Packages Used
 All packages used in our conda environment are included in the Requirements.txt  
 
-- A100 GPU
+- NVIDIA Quadro 6000 GPU
 - T4x2
 
 ---
